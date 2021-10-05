@@ -1,4 +1,4 @@
-from tkinter import *
+from tkinter import Frame, Entry, Label, Button, Tk
 from automata import *
 def iniciar(frame: Frame, e: Entry, b:Button, miAutomata: Automata): 
     x=20
