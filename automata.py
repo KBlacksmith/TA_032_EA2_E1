@@ -79,11 +79,5 @@ if __name__=="__main__":
         print(f'Matricula: {miAutomata.matricula}')
         print('Reglas: i(w^n)i(w^-1)^2n j^2')
         cadena=input('Ingrese una cadena para validación: ')
-        resultado=miAutomata.validar0(cadena)
-        if resultado[0]:
-            print('Cadena válida\n\n\n')
-            pass
-        else: 
-            print('Error: '+resultado[1])
-            pass
+        print(miAutomata.validar0(cadena))
         sn = validar_sn()
